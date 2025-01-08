@@ -1,4 +1,11 @@
-module Poly where
+module Poly
+  ( module Lib
+  , module Poly
+  )
+where
+
+import Lib
+
 import Data.List
 import Data.Function
 
